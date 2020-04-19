@@ -24,4 +24,4 @@ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <SKETCH>
 ```
 
 ## Useful links
-[Arduino CLI](arduino.github.io/arduino-cli/getting-started)
+[Arduino CLI](https://arduino.github.io/arduino-cli/getting-started)
