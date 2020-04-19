@@ -15,19 +15,20 @@ arduino-cli board list
 
 ## Compile sketch
 ```bash
-arduino-cli compile --fqbn arduino:avr:uno <SKETCH>
+arduino-cli compile --fqbn arduino:avr:uno <sketch-folder>
 ```
 
 ## Upload sketch to Arduino
 ```bash
-arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <SKETCH>
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno <sketch-folder>
 ```
 
 ## Useful links
 [Arduino CLI](https://github.com/arduino/arduino-cli)
 
 ## Pitfalls
-1) When uploading sketch to Arduino, if you get error from avrdude <b>can't open device "/dev/ttyACM0": Permission denied</b>, first check that the port exists:
+### When uploading sketch to Arduino, if you get error from avrdude <i>can't open device "/dev/ttyACM0": Permission denied</i>
+First check that the port exists:
 ```bash
 ls /dev/ttyACM0
 ```
