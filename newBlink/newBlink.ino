@@ -10,7 +10,7 @@ int led_y = 11;
 int led_r = 10;
 int led_w =  9;
 
-int dtime  = 500;
+int dtime  = 250;
 
 // the setup routine runs once when you press reset:
 void setup() {                
