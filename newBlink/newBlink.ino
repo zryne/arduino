@@ -6,9 +6,9 @@
 
 int led_b = 13;
 int led_g = 12;
-int led_y =  8;
-int led_r =  7;
-int led_w =  4;
+int led_y = 11;
+int led_r = 10;
+int led_w =  9;
 
 int dtime  = 500;
 
