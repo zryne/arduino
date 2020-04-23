@@ -120,9 +120,6 @@ void loop() {
   delay(led_delay);
   */
 
-  OneStep(false);
-  delay(step_delay);
-  /*
   for (int a = 0; a < step_revs; a++) {
     OneStep(false);
     delay(step_delay);
@@ -131,7 +128,6 @@ void loop() {
     OneStep(true);
     delay(step_delay);
   }
-  */
 }
 
 
