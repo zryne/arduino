@@ -33,6 +33,7 @@ void setup() {
 }
 
 void loop() {
+  /*
   digitalWrite(led_b, HIGH);
   digitalWrite(led_g, LOW);
   digitalWrite(led_y, LOW);
@@ -117,6 +118,7 @@ void loop() {
   digitalWrite(led_r, LOW);
   digitalWrite(led_w, LOW);
   delay(led_delay);
+  */
 
   OneStep(false);
   delay(step_delay);
